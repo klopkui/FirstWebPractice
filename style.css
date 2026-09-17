@@ -1,0 +1,56 @@
+/* ALL ELEMENTS SELECTOR */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #656565;
+  font-family: sans-serif;
+}
+
+/* MAIN SECTIONS */
+.main-header {
+  display: flex;
+  /* background-color: red; */
+  padding: 25px 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ELEMENTS */
+p {
+  font-size: 16px;
+}
+
+/* PARENT ELEMENTS */
+.header-navbar {
+  display: block;
+}
+
+.nav-action {
+  display: block;
+}
+
+.header-navbar a {
+  margin-right: 30px;
+}
+
+.anchor a {
+  text-decoration: none; /*Tuhle classu použít při tvorbě anchoru, co bude bez decoartion*/
+}
+
+.hover-black a:hover {
+  color: black; /*Pokud se bude chtít přidat nějaký další element, který bude při hoveru černý, tak se použije tato classa*/
+}
+/* SINGLE ELEMENTS */
+.logo {
+  width: 164px; /*TODO: Tuhle hodnotu jsem jenom tipl, takže ještě bude potřeba opravit */
+  height: auto;
+}
+
+.header-navbar a:last-child {
+  margin: 0; /*Tímto jsem smazal margin, který byl vpravo u posledního anchoru */
+}
+
+.nav-login {
+  margin-right: 20px;
+}
