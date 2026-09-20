@@ -1,4 +1,17 @@
 /* ALL ELEMENTS SELECTOR */
+
+/* 
+SPACING
+4, 8, 16, 24, 32, 48, 64
+*/
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --text-muted: #6b7280;
+  --accent: #5850ec;
+  --border: #e5e7eb;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -18,7 +31,7 @@
 
 /* ELEMENTS */
 p {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 /* PARENT ELEMENTS */
@@ -51,6 +64,41 @@ p {
   margin: 0; /*Tímto jsem smazal margin, který byl vpravo u posledního anchoru */
 }
 
-.nav-login {
+.btn-login {
   margin-right: 20px;
+}
+.btn-cta {
+  color: #ffffff;
+  background-color: #5850ec;
+  border-radius: 6px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  text-decoration: none;
+}
+
+.hero {
+  margin-top: 60px;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-header {
+  color: #1a1a1a;
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+.hero-header-accent {
+  color: #5850ec;
+}
+
+.hero-paragraph {
+  max-width: 60ch;
+  margin: 0 auto;
+  margin-bottom: 24px;
 }
