@@ -78,6 +78,10 @@ p {
 .btn-login {
   margin-right: 20px;
 }
+
+.btn-login:hover {
+  color: black;
+}
 .btn-cta {
   color: #ffffff;
   background-color: var(--accent);
@@ -85,6 +89,17 @@ p {
   padding: 10px 15px;
   text-decoration: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  border: 3px solid var(--accent);
+}
+
+.btn-cta:hover {
+  background-color: #5850ecd0;
+  color: #ffffff;
+  border-color: #5850ecd0;
+}
+
+.btn-cta:focus {
+  border: 3px solid rgba(118, 169, 250, 0.45);
 }
 
 .btn-secondary {
@@ -95,7 +110,17 @@ p {
   border-radius: 6px;
   padding: 10px 15px;
   text-decoration: none;
+  border: 3px solid #fff;
 }
+
+.btn-secondary:hover {
+  color: #5850ecd0;
+  border-color: #5850ecd0;
+}
+.btn-secondary:focus {
+  border-color: rgba(118, 169, 250, 0.45);
+}
+
 .middle {
   padding: 18px 40px;
   font-size: 18px;
@@ -158,8 +183,9 @@ p {
 
 .analytics-text {
   margin: 0 auto;
-  max-width: 60ch;
+  max-width: 80ch;
   line-height: 1.3;
+  text-align: center;
 }
 
 h2 {
