@@ -80,7 +80,7 @@ p {
 }
 .btn-cta {
   color: #ffffff;
-  background-color: #5850ec;
+  background-color: var(--accent);
   border-radius: 6px;
   padding: 10px 15px;
   text-decoration: none;
@@ -88,7 +88,7 @@ p {
 }
 
 .btn-secondary {
-  color: #5850ec;
+  color: var(--accent);
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   /* box-shadow: 0 2px 4px rgba(0,0,0,0.15); — a shadow offset 2px down, blurred 4px, in semi-transparent black. */
@@ -115,7 +115,7 @@ p {
   margin-bottom: 24px;
 }
 .hero-header-accent {
-  color: #5850ec;
+  color: var(--accent);
 }
 
 .hero-paragraph {
