@@ -10,6 +10,8 @@ SPACING
   --text-muted: #6b7280;
   --accent: #5850ec;
   --border: #e5e7eb;
+  --bg-gray: #f9f9f9;
+  --img-overlap: 400px; /*O kolik obrázek přesahuje do bílé sekce*/
 }
 
 * {
@@ -37,6 +39,7 @@ p {
   padding: 25px 50px;
   align-items: center;
   justify-content: space-between;
+  background-color: var(--bg-gray);
 }
 
 /* ELEMENTS */
@@ -101,7 +104,8 @@ p {
 /* HERO SECTION */
 
 .hero {
-  margin-top: 72px;
+  background-color: var(--bg-gray);
+  padding-top: 72px;
   padding-bottom: 0;
 }
 
@@ -131,12 +135,18 @@ p {
 .hero-img-container {
   display: flex;
   justify-content: center;
-  margin-bottom: -600px;
+  margin-bottom: calc(var(--img-overlap) * -1);
+  position: relative; /*Bez position+z-index by bílé pozadí .about-us obrázek překrylo*/
+  z-index: 1;
 }
 
 .hero-img {
   max-width: 1200px; /*TODO: tohle je ještě potřeba doladit, je zde zadaná pouze max width*/
-  margin-bottom: 100px;
+}
+
+.about-us {
+  background-color: var(--bg);
+  padding-top: calc(var(--img-overlap) + 220px);
 }
 
 .h2-header {
