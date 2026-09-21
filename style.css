@@ -20,7 +20,17 @@ SPACING
   font-family: sans-serif;
 }
 
-/* MAIN SECTIONS */
+p {
+  font-size: 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*NAVBAR*/
 .main-header {
   display: flex;
   /* background-color: red; */
@@ -30,9 +40,6 @@ SPACING
 }
 
 /* ELEMENTS */
-p {
-  font-size: 20px;
-}
 
 /* PARENT ELEMENTS */
 .header-navbar {
@@ -64,6 +71,7 @@ p {
   margin: 0; /*Tímto jsem smazal margin, který byl vpravo u posledního anchoru */
 }
 
+/* BUTTONS */
 .btn-login {
   margin-right: 20px;
 }
@@ -80,22 +88,20 @@ p {
   color: #5850ec;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 2px 4px rgba(0,0,0,0.15); — a shadow offset 2px down, blurred 4px, in semi-transparent black. */
   border-radius: 6px;
   padding: 10px 15px;
   text-decoration: none;
 }
 .middle {
-  padding: 20px 40px;
+  padding: 18px 40px;
   font-size: 18px;
 }
 
+/* HERO SECTION */
+
 .hero {
   margin-top: 72px;
-}
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .hero-header {
@@ -108,7 +114,7 @@ p {
 }
 
 .hero-paragraph {
-  max-width: 60ch;
+  max-width: 70ch;
   margin: 0 auto;
   margin-bottom: 24px;
 }
