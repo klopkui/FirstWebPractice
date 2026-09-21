@@ -119,3 +119,12 @@ p {
   align-items: center;
   gap: 10px;
 }
+
+.hero-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-img {
+  max-width: 1200px;
+}
