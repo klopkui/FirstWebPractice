@@ -126,5 +126,24 @@ p {
 }
 
 .hero-img {
-  max-width: 1200px;
+  max-width: 1200px; /*TODO: tohle je ještě potřeba doladit, je zde zadaná pouze max width*/
+  margin-bottom: 50px;
+}
+
+.h2-header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.analytics-text {
+  margin: 0 auto;
+  max-width: 60ch;
+  line-height: 1.2;
+}
+
+h2 {
+  color: black;
+  font-size: 24 8px;
 }
