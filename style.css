@@ -192,3 +192,8 @@ h2 {
   color: black;
   font-size: 28px;
 }
+
+.use-us-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
